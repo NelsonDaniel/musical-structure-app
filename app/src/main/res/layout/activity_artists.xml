@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:padding="16dp"
+            android:text="@string/artists_activity_description"
+            android:layout_width="match_parent" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/now_playing"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:paddingLeft="16dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:text="Now Playing Bar" />
+
+</LinearLayout>

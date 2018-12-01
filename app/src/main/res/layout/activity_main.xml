@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/artists"
+            style="@style/OptionStyle"
+            android:text="@string/option_artists" />
+
+        <TextView
+            android:id="@+id/albums"
+            style="@style/OptionStyle"
+            android:text="@string/option_discover" />
+
+        <TextView
+            android:id="@+id/songs"
+            style="@style/OptionStyle"
+            android:text="@string/option_songs" />
+
+        <TextView
+            android:id="@+id/playlists"
+            style="@style/OptionStyle"
+            android:text="@string/option_playlists" />
+
+        <TextView
+            android:id="@+id/upgrade"
+            style="@style/OptionStyle"
+            android:text="@string/option_upgrade" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/now_playing"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:paddingLeft="16dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:text="Now Playing Bar" />
+
+</LinearLayout>
